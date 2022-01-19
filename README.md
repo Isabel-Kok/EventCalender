@@ -1,2 +1,0 @@
-# EventCalender
-Cmd project individueel
