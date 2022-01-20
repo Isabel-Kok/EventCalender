@@ -15,6 +15,15 @@ select:first-child {
 
 footer {
     padding: 20px;
+    background-color: #EB4F75;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
 }
 
 
