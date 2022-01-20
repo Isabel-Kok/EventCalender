@@ -30,9 +30,9 @@ footer a {
 /* contact */
 
 input, textarea {
-    margin-top: 10px;
     margin: 10px 0px 5px 0px;
     width: calc(100% - 10px);
+    border: 3px solid #EB4F75;
 }
 
 textarea {
@@ -41,6 +41,10 @@ textarea {
 
 input:last-child {
     width: 100%;
+    background-color: #EB4F75;
+    color: white;
+    padding: 10px;
+    border: none;
 }
 
 
