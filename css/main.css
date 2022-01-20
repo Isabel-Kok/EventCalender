@@ -86,9 +86,8 @@ html {
   
   body {
       background-color: rgb(255, 255, 255);
-      background-size: 300px 400px;
       margin: 1vh 1vw 1vh 1vw;
-      width: 320px;
+      max-width: 100%;
       padding: 10px;
       border: 5px solid #5475B6;
   }
