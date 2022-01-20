@@ -7,11 +7,15 @@ img {
 
 /* Main */
 
-
+select:first-child {
+    margin: 10px;
+}
 
 /* Footer */
 
-
+footer {
+    padding: 20px;
+}
 
 
 
