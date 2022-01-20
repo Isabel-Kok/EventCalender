@@ -110,7 +110,7 @@ html {
   }
   
   a {
-      color: #EB4F75;
+      color:#EB4F75;  
       font-family: 'AcuminVariable', sans-serif;
       font-size: 1em;
       margin-bottom: 0.5em;
@@ -118,19 +118,3 @@ html {
   
   
   
-  blockquote {
-      font-family: 'FilsonPro', sans-serif;   
-      font-size: 1.4em;
-      color: #0C1E32;
-      font-weight: 500; 
-      text-align: center;
-      width: 335px;
-      height: 335px;
-      padding-top: 80px;
-      padding-left: 40px;
-      padding-right: 40px;
-      margin: 1.8em auto 1.8em auto;
-      border: 1px solid transparent;                     /* Eerst een standaard border aanzetten. Deze zie je als het plaatje niet mocht werken (of niet, want transparant) */
-      border-image-width: 100px;                         /* we willen de border 100px groot */
-      border-image-slice: 100;                           /* het plaatje wordt in 9 stukken geknipt: het totale plaatje is 300x300 en elk gedeelte (vlakje) van de border is 100x100 */
-  }
