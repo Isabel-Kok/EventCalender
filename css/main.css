@@ -11,6 +11,17 @@ select:first-child {
     margin: 10px;
 }
 
+main a {
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    width: calc(100% - 40px);
+    background-color: #EB4F75;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer */
 
 footer {
