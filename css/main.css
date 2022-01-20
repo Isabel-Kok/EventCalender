@@ -32,19 +32,23 @@ footer a {
 input, textarea {
     margin: 10px 0px 5px 0px;
     width: calc(100% - 10px);
-    border: 3px solid #EB4F75;
+    border: 3px solid #8daef2;
+    font-family: 'FilsonPro';
+
 }
 
 textarea {
     height: 80px;
+
 }
 
 input:last-child {
     width: 100%;
-    background-color: #EB4F75;
+    background-color: #8daef2;
     color: white;
     padding: 10px;
     border: none;
+    font-family: 'FilsonPro';
 }
 
 
