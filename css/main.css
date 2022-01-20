@@ -70,7 +70,7 @@ html {
       margin: 1vh 1vw 1vh 1vw;
       width: 320px;
       padding: 10px;
-      border: 5px solid rgb(0, 0, 0);
+      border: 5px solid #5475B6;
   }
   
   /* onderstaande styles voor de <h1>, <h2>, <p> an <a> tags geven een voorbeeld
@@ -93,7 +93,7 @@ html {
       font-size: 1.5em;
       color: #FFFFFF;
       background-color: #EB4F75;
-      font-weight: 700; /* bold */
+      font-weight: 700;
       width: fit-content;
       padding: 5px 20px 5px 20px;
       margin-bottom: 0.5em;
@@ -102,12 +102,15 @@ html {
   p {
       font-family: 'AcuminVariable', sans-serif;
       font-size: 1em;
-      color: #6D6F71;
+      color: #082040;
       margin-bottom: 0.5em;
   }
   
   a {
       color: #EB4F75;
+      font-family: 'AcuminVariable', sans-serif;
+      font-size: 1em;
+      margin-bottom: 0.5em;
   }
   
   
