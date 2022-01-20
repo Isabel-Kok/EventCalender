@@ -115,6 +115,18 @@ html {
       margin-bottom: 0.5em;
       text-align: center;
   }
+
+  h3 {
+    font-family: 'FilsonPro', sans-serif; 
+    font-size: 1.17em;
+    color: white;
+    background-color: #EB4F75;
+    font-weight: 700;
+    width: fit-content;
+    padding: 5px 20px;
+    text-align: center;
+
+  }
   
   p {
       font-family: 'AcuminVariable', sans-serif;
