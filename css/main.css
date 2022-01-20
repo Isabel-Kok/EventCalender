@@ -15,29 +15,7 @@ img {
 
 /* Main */
 
-.mainimage {
-    max-width: 50%;
-    height: auto;
-}
 
-.homepage h2 {
-    text-align: center;
-    margin: 20px;
-}
-
-.homepage p {
-    margin: 20px;
-}
-
-.homepage a {
-    text-align: center;
-    padding: 10px;
-    background-color: #f25781;
-    color: black;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-}
 
 /* Footer */
 
