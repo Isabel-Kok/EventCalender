@@ -7,7 +7,9 @@ img {
 
 /* Main */
 
-select:first-child {
+main div {
+    display: flex;
+    justify-content: space-evenly;
     margin: 10px;
 }
 
@@ -22,6 +24,9 @@ main a {
     justify-content: center;
 }
 
+hr {
+    margin: 15px 0px;
+}
 
 /* Footer */
 
