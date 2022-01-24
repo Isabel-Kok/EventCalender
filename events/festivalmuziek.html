@@ -29,7 +29,13 @@
             <li>Dutch-spreaking artists</li>
             <li>Minimum age 18</li>
         </ul>
-            <h3>Highlights</h3>
+        <div class="funtask">
+            <button type="button" class="collapsible">Fun Task!</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repudiandae veritatis odit accusantium reprehenderit. Voluptate ipsum praesentium illum, id voluptates esse molestias sequi ad eum in. Enim excepturi quo eius.</p>
+            </div>
+        </div>
+        <h3>Highlights</h3>
         <p> Sing the evening away with these Dutch classics and get to know the Dutch music genres. Performing artists are: Maan, Snelle, Lil Kleine, Andre H Junior, Boef and SnolleBollekes.</p>
         <img src="../img/partyconfeti.jpeg" alt="image party with confetti">
         <a href="../events.html">Go Back</a>
@@ -40,3 +46,19 @@
     </footer>
 </body>
 </html>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+        content.style.display = "none";
+        } else {
+        content.style.display = "block";
+        }
+    });
+    }
+</script>

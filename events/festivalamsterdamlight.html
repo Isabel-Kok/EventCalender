@@ -27,7 +27,13 @@
             <li>Hiking route</li>
             <li>Route map is included</li>
         </ul>
-            <h3>Highlights</h3>
+        <div class="funtask">
+            <button type="button" class="collapsible">Fun Task!</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repudiandae veritatis odit accusantium reprehenderit. Voluptate ipsum praesentium illum, id voluptates esse molestias sequi ad eum in. Enim excepturi quo eius.</p>
+            </div>
+        </div>
+        <h3>Highlights</h3>
         <p>The 10th anniversary of Amsterdam Light Festival. About twenty light artworks can be seen along the route you get. Precautions regarding Covid-19: Face masks are optional for this activity as the activity takes place outside. The artworks: 1.26 Amsterdam, Bridge of the rainbow, Bunch of tulips, butterfly effect, Darth father, Drawn in light, Ghost Ship, Light a wish, Light lab technasium, Match Girl, Minutes in Blue, Moonburn, MR. J.J van de Veldebrug, Night drawing, Neighborhood, Northern Light, Pas encore mon histoire, Run beyond, Souvenir, Spider, Starry Night, Talking heads, Whole hole, My light is your light.</p>
         <img src="../img/lightbuterfly.jpeg" alt="image art light butterfly">
         <a href="../events.html">Go Back</a>
@@ -38,3 +44,19 @@
     </footer>
 </body>
 </html>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+        content.style.display = "none";
+        } else {
+        content.style.display = "block";
+        }
+    });
+    }
+</script>

@@ -27,7 +27,13 @@
             <li>Duration 2 hours</li>
             <li>Tour guide who speaks English </li>
         </ul>
-            <h3>Highlights</h3>
+        <div class="funtask">
+            <button type="button" class="collapsible">Fun Task!</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repudiandae veritatis odit accusantium reprehenderit. Voluptate ipsum praesentium illum, id voluptates esse molestias sequi ad eum in. Enim excepturi quo eius.</p>
+            </div>
+        </div>
+        <h3>Highlights</h3>
         <p>Taste real Dutch herring. Stroll through the well-known Flower Market. Taste a pancake or poffertje and learn more about the life of the everyday Amsterdammer. Gathering is at the Royal palace and from there the adventure begins.</p>
         <a href="../events.html">Go Back</a>
     </main>
@@ -37,3 +43,19 @@
     </footer>
 </body>
 </html>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+        content.style.display = "none";
+        } else {
+        content.style.display = "block";
+        }
+    });
+    }
+</script>
