@@ -44,6 +44,25 @@ footer a {
     margin-bottom: 0px;
 }
 
+/* Fun task */
+
+.collapsible {
+    float: left;
+    width: 100%;
+}
+
+.funtask {
+    display: inline-block;
+    width: 100%;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
 /* contact */
 
 input, textarea {

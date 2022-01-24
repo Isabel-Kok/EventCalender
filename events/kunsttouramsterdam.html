@@ -27,7 +27,13 @@
             <li>Duration 2.5 hours</li>
             <li>Tour guide who speaks English and Dutch</li>
         </ul>
-            <h3>Highlights</h3>
+        <div class="funtask">
+            <button type="button" class="collapsible">Fun Task!</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repudiandae veritatis odit accusantium reprehenderit. Voluptate ipsum praesentium illum, id voluptates esse molestias sequi ad eum in. Enim excepturi quo eius.</p>
+            </div>
+        </div>
+        <h3>Highlights</h3>
         <p>You will visit the most beautiful works of art in the Center of Amsterdam. You will be brought up to date with contemporary art and the art of the past. Find out the best stories that the tour guide tells about life in Amsterdam, you can always ask questions and you will learn more and more about this town.</p>
         <img src="../img/flowerbike.jpeg" alt="image art flowers on a bike">
         <a href="../events.html">Go Back</a>
@@ -38,3 +44,19 @@
     </footer>
 </body>
 </html>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+        content.style.display = "none";
+        } else {
+        content.style.display = "block";
+        }
+    });
+    }
+</script>
