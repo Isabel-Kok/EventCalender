@@ -97,21 +97,18 @@ html {
      
   h1 {
       font-family: 'FilsonPro', sans-serif;   
-      font-size: 2em;
+      font-size: 1em;
       text-transform: uppercase;
       color: #5475B6;
-      font-weight: 700; /* bold */
+      font-weight: 700; 
       margin-bottom: 0.5em;
       text-align: center;
   }
   
   h2 {
       font-family: 'FilsonPro', sans-serif;   
-      font-size: 1.5em;
       color: #FFFFFF;
       background-color: #EB4F75;
-      font-weight: 700;
-      width: fit-content;
       padding: 5px 20px 5px 20px;
       margin-bottom: 0.5em;
       text-align: center;
