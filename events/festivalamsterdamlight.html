@@ -16,14 +16,14 @@
         </header>
     </nav>
     <main>
-        <h2>Festival Amsterdam Light</h2>
+        <h2> Amsterdam Light Festival</h2>
         <p>date: 27/01/2022 </p>
         <img src="../img/lightbrug.jpeg" alt="image lightbridge festival">
         <p>Discover Amsterdam at night during the Light festival. This year is the anniversary of 10 years of existence. The theme is therefore Celebrate Light. The artworks on display are: Light a Wish, Run Beyond, Butterfly Effect, SPIDER, Bridge of the Rainbow.</p>
         <h3>About this activity</h3>          
             <button type="button" onclick="alert('Events is saved in your agenda')">Save event!</button>
         <ul>
-            <li>Calcellation cost €2.50,-</li>
+            <li>Cancellation cost €2.50,-</li>
             <li>Hiking route</li>
             <li>Route map is included</li>
         </ul>
@@ -43,21 +43,22 @@
         <a href="../aboutus.html">About Us /Contact</a>
         <a href="https://www.instagram.com/isabel_kok_/" target="_blank">&copy;2021 Isabel</a>
     </footer>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+    
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+            content.style.display = "none";
+            } else {
+            content.style.display = "block";
+            }
+        });
+        }
+    </script>
 </body>
 </html>
 
-<script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-
-    for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-        content.style.display = "none";
-        } else {
-        content.style.display = "block";
-        }
-    });
-    }
-</script>
