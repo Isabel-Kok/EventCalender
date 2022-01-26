@@ -144,8 +144,11 @@ html {
     width: fit-content;
     padding: 5px 20px;
     text-align: center;
-
   }
+
+h4 {
+    text-align: center;
+}
   
   p {
       font-family: 'AcuminVariable', sans-serif;
