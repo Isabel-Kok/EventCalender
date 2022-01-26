@@ -24,9 +24,6 @@ main a {
     justify-content: center;
 }
 
-hr {
-    margin: 15px 0px;
-}
 
 /* Footer */
 
@@ -53,7 +50,7 @@ footer a {
 
 .funtask {
     display: inline-block;
-    width: 100%;
+    width: 95%;
 }
 
 .content {
@@ -168,11 +165,13 @@ button {
   background-color: #EB4F75;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 16px 20px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
   float: right;
+  box-shadow:5px 5px 5px grey;
+
 }  
 
 
