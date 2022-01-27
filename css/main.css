@@ -1,3 +1,18 @@
+
+@font-face {
+    font-family: 'FilsonPro';
+    src: url('../assets/FilsonProRegular.otf');
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  @font-face {
+      font-family: 'AcuminVariable';
+      src: url('../assets/AcuminVariableConcept.otf');
+      font-style: normal;
+      font-weight: 300;
+  }
+  
 /* Header */
 
 img {
@@ -85,20 +100,6 @@ input:last-child {
 }
 
 
-
-@font-face {
-    font-family: 'FilsonPro';
-    src: url('../assets/FilsonProRegular.otf');
-    font-style: normal;
-    font-weight: 300;
-  }
-  
-  @font-face {
-      font-family: 'AcuminVariable';
-      src: url('../assets/AcuminVariableConcept.otf');
-      font-style: normal;
-      font-weight: 300;
-  }
   
 html {
       padding: 0px;
@@ -176,5 +177,3 @@ button {
   box-shadow:5px 5px 5px grey;
 
 }  
-
-
